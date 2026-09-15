@@ -1,0 +1,16 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { apples } from "../../data/apples-with-info.json";
+---
+
+<Layout>
+<div>
+    <h1>Apples v4</h1>
+    <ul>
+        {apples.map((apple) => {
+            return <li><a href={`/apples4/`+apple.name}>{apple.name} Apple</a></li>;
+        })}
+    </ul>
+    <div><a href="/">Return home</a></div>
+</div>
+</Layout>

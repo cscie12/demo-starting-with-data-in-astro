@@ -1,0 +1,28 @@
+{
+  "apples": [
+    {
+      "name": "fuji",
+      "info": "A crisp, sweet apple with a firm texture and juicy flavor."
+    },
+    {
+      "name": "gala",
+      "info": "A mildly sweet, aromatic apple with a crisp texture and thin skin."
+    },
+    {
+      "name": "macintosh",
+      "info": "A tender, juicy apple with a sweet-tart flavor, often used for applesauce."
+    },
+    {
+      "name": "honeycrisp",
+      "info": "A large, crisp apple with a sweet honey flavor and excellent crunchiness."
+    },
+    {
+      "name": "granny smith",
+      "info": "A tart, bright green apple with firm flesh, great for baking and cooking."
+    },
+    {
+      "name": "braeburn",
+      "info": "A crisp, juicy apple with a sweet-spicy flavor and excellent storage life."
+    }
+  ]
+}

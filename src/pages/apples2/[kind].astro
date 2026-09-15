@@ -1,0 +1,28 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+export const apples = [
+    "fuji",
+    "gala",
+    "macintosh",
+];
+
+export function getStaticPaths() {
+    console.log("data", apples);
+    const appleRoutes = apples.map((apple) => {
+        return {params: { kind: apple }};
+    })
+
+    console.log("getStaticPaths():", appleRoutes);
+    return appleRoutes;
+}
+
+const { kind } = Astro.params;
+
+---
+
+<Layout>
+<h1>Apple: {kind}</h1>
+<p>This page is about <b>{kind}</b> apples</p>
+<a href="/apples2">Back</a>
+</Layout>

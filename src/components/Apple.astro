@@ -1,0 +1,27 @@
+---
+const { name, info } = Astro.props;
+---
+
+<div class="apple">
+    <h3>{name}</h3>
+    <p>{info}</p>
+</div>
+
+<style>
+  .apple {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    background: white;
+  }
+
+  h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.25rem;
+  }
+
+  p {
+    margin: 0;
+    color: #666;
+  }
+</style>
